@@ -1,10 +1,11 @@
 def read_number():
-    n1 = input("Enter a number: ")
-    n2 = input("Enter a number: ")
-    n1 = int(n1)
-    n2 = int(n2)
-    print(f"{n1} + {n2} = {n1 + n2}")
+    x = input("Enter a number: ")
+    return x
+
+
 
 
 if __name__ == "__main__":
-    read_number()
+    n1 = int(read_number())
+    n2 = int(read_number())
+    print(f"{n1} + {n2} = {n1 + n2}")
