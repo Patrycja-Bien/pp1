@@ -16,6 +16,6 @@ def f(n):
 
 if __name__ == '__main__':
     #check your program in this place
-    print(f(9))
+    print(f(2))
     print(f(10))
     print(f(16))

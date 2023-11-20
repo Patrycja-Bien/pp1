@@ -12,11 +12,7 @@ elif len(time24) == 4:
     hours = time24[:1]
     minutes = time24[2:]
     hours = int(hours)
-    if hours <= 12:
-        print(f"Time in 12-hour format: {time24}am")
-    else:
-        hours -= 12
-        print(f"Time in 12-hour format: {hours}:{minutes}pm")
+    print(f"Time in 12-hour format: {time24}am")
 else:
     print("Wrong time")
 

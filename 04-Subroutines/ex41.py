@@ -10,7 +10,7 @@ def f(n):
     count = 0
     num = 2
     while True:
-        if is_prime(num):
+        if is_prime(num) == True:
             count += 1
             if count == n:
                 return num

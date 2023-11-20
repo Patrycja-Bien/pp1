@@ -23,3 +23,18 @@ def f(number):
 print(f(1027))
 print(f(230335))
 print(f(513553007))
+
+def g(number):
+    sum = 0
+    number = str(number)
+    for i in range(1,10):
+        i = str(i)
+        if number.count(i) > 1:
+            x = int(number.count(i))
+            i = int(i)
+            sum += i*x
+    return sum
+
+print(g(1027))
+print(g(230335))
+print(g(513553007))

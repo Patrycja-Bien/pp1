@@ -23,3 +23,7 @@ def month(n):
         return "November"
     else:
         return "December"
+    
+def month2(n):
+    li = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"]
+    return li[n-1]
