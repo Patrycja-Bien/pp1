@@ -1,0 +1,13 @@
+f{counter}. {prodduct}+
+f{counter}. {prodduct}+
+f{counter}. {prodduct}+
+f{counter}. {prodduct}+
+f{counter}. {prodduct}+
+Milk
+Honey
+Mustard
+1. Milk
+2. Honey
+3. Cookies
+4. Water
+5. Wine
