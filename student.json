@@ -1,0 +1,12 @@
+{
+      "name": "Drew",
+      "surname": "Gooden",
+      "age": 22,
+      "gender": "male",
+      "full-time student": true,
+      "hobby": [
+            "swimming",
+            "dancing",
+            "video games"
+      ]
+}

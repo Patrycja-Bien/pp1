@@ -1,0 +1,16 @@
+{
+    "title": "The Fall of the House of Usher",
+    "director": "Mike Flanagan",
+    "year": 2023,
+    "actor": {
+        "leading": "Carla Gugino",
+        "supporting": "Kate Siegel"
+    },
+    "oscar": false,
+    "genre": [
+        "Drama",
+        "Horror",
+        "Mystery"
+    ],
+    "filming location": "Canada"
+}
