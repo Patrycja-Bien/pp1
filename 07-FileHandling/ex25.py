@@ -8,7 +8,7 @@ Use regular expressions to extract the values of temperatures from the message.
 '''
 import re
 message = "Tuesday: 22C, Wednesday: 21C, Thursday: 26C "
-temperatures = re.findall("\d{2}",message)
+temperatures = re.findall("(\d+)C",message)
 sum = 0
 count = 0
 for i in temperatures:
