@@ -1,10 +1,24 @@
-def identity_matrix(n):
-    return [[1 if i == j else 0 for j in range(n)] for i in range(n)]
-
 def transpose_matrix(m):
-    return [[row[i] for row in m] for i in range(len(m[0]))]
+    rows, cols = len(m), len(m[0])
+    transposed = [[0] * rows for _ in range(cols)]
 
+    for i in range(rows):
+        for j in range(cols):
+            transposed[j][i] = m[i][j]
 
-print(identity_matrix(5))
-print()
-print(transpose_matrix(5))
+    return transposed
+
+matrix = [
+    [1, 2, 3],
+    [4, 5, 6],
+    [7, 8, 9]]
+
+transposed_matrix = transpose_matrix(matrix)
+
+print("Original Matrix:")
+for row in matrix:
+    print(row)
+
+print("\nTransposed Matrix:")
+for row in transposed_matrix:
+    print(row)
